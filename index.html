@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="logo">
+            <a class="navigation__links" href="#about">Vlad Kazachenko</a>
+          </div>
+          <nav class="navigation">
+            <ul
+              id="primary-navigation"
+              data-visible="false"
+              class="navigation__list"
+            >
+              <li class="navigation__item">
+                <a class="navigation__links" href="#about">About</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__links" href="#skills">Skills</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__links" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__links" href="#work-experience"
+                  >Work Experience
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__links" href="#education">Education</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__links" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+            <button
+              aria-expanded="fasle"
+              aria-controls="primary-navigation"
+              class="header__button_toggle"
+            >
+              <div class="burger"><span aria-hidden="true"></span></div>
+            </button>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section id="about" class="section about">
+          <div class="about__info">
+            <h1 class="section__header about_header">
+              Hi !<br />
+              <span class="font__bold section__header_big"
+                >I'm Vlad Kazachenko, Front-End Developer</span
+              >
+            </h1>
+            <p class="about__text">
+              Based in
+              <span class="font__bold">Minsk, Belarus</span> (ready to
+              relocate), 28 y.o.<br />I’am coding with a clean and beautiful
+              problem solving in mind.
+            </p>
+          </div>
+          <div class="image__container">
+            <img class="about__image" src="assets/img/photo.png" alt="Photo" />
+          </div>
+        </section>
+
+        <section id="skills" class="section skills">
+          <h2 class="section__header">
+            My
+            <span class="font__bold">Skills</span>
+          </h2>
+          <div class="skills__container">
+            <div class="skills__item">
+              <div class="image">
+                <img
+                  class="skills__image"
+                  src="assets/img/html.png"
+                  alt="html"
+                />
+              </div>
+              <p class="skills__name">HTML</p>
+            </div>
+            <div class="skills__item">
+              <img class="skills__image" src="assets/img/css.png" alt="css" />
+              <p class="skills__name">CSS</p>
+            </div>
+            <div class="skills__item">
+              <img class="skills__image" src="assets/img/js.png" alt="js" />
+              <p class="skills__name">JavaScript</p>
+            </div>
+            <div class="skills__item">
+              <img class="skills__image" src="assets/img/ts.png" alt="ts" />
+              <p class="skills__name">TypeScript</p>
+            </div>
+            <div class="skills__item">
+              <img
+                class="skills__image"
+                src="assets/img/react.png"
+                alt="react"
+              />
+              <p class="skills__name">React</p>
+            </div>
+            <div class="skills__item">
+              <img
+                class="skills__image"
+                src="assets/img/redux.png"
+                alt="redux"
+              />
+              <p class="skills__name">Redux</p>
+            </div>
+            <div class="skills__item">
+              <img
+                class="skills__image"
+                src="assets/img/nodejs.png"
+                alt="nodejs"
+              />
+              <p class="skills__name">Node Js</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" class="section portfolio">
+          <h2 class="section__header">
+            My
+            <span class="font__bold">Portfolio</span>
+          </h2>
+
+          <div class="slider">
+            <div id="slider-navigation" class="slider__container">
+              <a
+                class="slider__item game-shop"
+                href="https://kazachenko2v.github.io/GameShop/"
+                target="_blank"
+                ><h3 class="slide__title">GameShop</h3>
+                <img src="assets/img/portfolio/game-shop.png" alt="GameShop"
+              /></a>
+              <a
+                class="slider__item notes-app"
+                href="https://kazachenko2v.github.io/NotesApp/"
+                target="_blank"
+                ><h3 class="slide__title">NotesApp</h3>
+                <img src="assets/img/portfolio/notes-app.png" alt="NotesApp"
+              /></a>
+              <a
+                class="slider__item slider-app"
+                href="https://kazachenko2v.github.io/sliders-tabs/index.html"
+                target="_blank"
+                ><h3 class="slide__title">Slider</h3>
+                <img src="assets/img/portfolio/slider.png" alt="Slider"
+              /></a>
+              <a
+                class="slider__item telegraph"
+                href="https://kazachenko2v.github.io/Telegraph/index.html"
+                target="_blank"
+                ><h3 class="slide__title">Telegraph</h3>
+                <img src="assets/img/portfolio/telegraph.png" alt="Telegraph"
+              /></a>
+            </div>
+            <div class="arrows">
+              <button
+                aria-controls="slider-navigation"
+                class="arrow left-arrow"
+              >
+                <img src="assets/img/arrow-left.svg" alt="arrow left" />
+              </button>
+              <button
+                aria-controls="slider-navigation"
+                class="arrow right-arrow"
+              >
+                <img src="assets/img/arrow-right.svg" alt="arrow right" />
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="work-experience" class="section">
+          <h2 class="section__header">
+            Work
+            <span class="font__bold"> Experience </span>
+          </h2>
+          <div class="info">
+            <div>
+              <h3 class="info__title font__semi-bold">Frontend Developer</h3>
+              <p class="info__subtitle italic">
+                TEYMAX Software Development company 03.2021. - 04.2022
+              </p>
+            </div>
+            <ul class="info__text">
+              <li>
+                Cooperate with designers to create clean interfaces and simple,
+                intuitive interactions and experiences.
+              </li>
+              <li>
+                Work with senior developer to manage large, complex design
+                projects for corporate clients.
+              </li>
+              <li>
+                Carry out quality assurance tests to discover errors and
+                optimize usability.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="education" class="section">
+          <h2 class="section__header">
+            <span class="font__bold"> Education </span>
+          </h2>
+          <div class="info">
+            <div>
+              <h3 class="info__title font__semi-bold">
+                Belarusian State University
+              </h3>
+              <p class="info__subtitle italic">2012 - 2017</p>
+            </div>
+            <p class="info__text">
+              The Faculty of Biology, Department of General Ecology and Methods
+              of Biology Teaching
+            </p>
+          </div>
+          <div class="info">
+            <div>
+              <h3 class="info__title font__semi-bold">IT-Academy</h3>
+              <p class="info__subtitle italic">01.2020 - 07.2020</p>
+            </div>
+            <p class="info__text">HTML CSS JS Courses</p>
+          </div>
+        </section>
+
+        <section id="hobbies" class="section">
+          <h2 class="section__header">
+            <span class="font__bold"> Hobbies </span>
+          </h2>
+          <div class="hobbies">
+            <div class="hobbies__item">
+              <img class="icon" src="assets/img/svg/books.svg" alt="books" />
+              <span>Books</span>
+            </div>
+            <div class="hobbies__item">
+              <img class="icon" src="assets/img/svg/sport.svg" alt="sport" />
+              <span>Sport</span>
+            </div>
+            <div class="hobbies__item">
+              <img class="icon" src="assets/img/svg/guitar.svg" alt="guitar" />
+              <span>Guitar</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact-me" class="section">
+          <h2 class="section__header">
+            <span class="font__bold">Contact </span>Me
+          </h2>
+          <div class="contact">
+            <div class="contact__item">
+              <a
+                class="contact__link contact__link_reverse"
+                href="https://t.me/kazachenko2v"
+                target="_blank"
+              >
+                <img
+                  class="icon"
+                  src="assets/img/svg/telegram.svg"
+                  alt="telegram"
+                />
+                <span>Telegram</span>
+              </a>
+              <p>t.me/kazachenko2v</p>
+            </div>
+            <div class="contact__item">
+              <a
+                class="contact__link"
+                href="https://www.linkedin.com/in/kazachenkovv/"
+                target="_blank"
+              >
+                <img
+                  class="icon"
+                  src="assets/img/svg/linkedin.svg"
+                  alt="linkedin"
+                />
+                <span>Linkedin</span>
+              </a>
+              <p>linkedin.com/in/kazachenkovv/</p>
+            </div>
+            <div class="contact__item">
+              <a
+                class="contact__link contact__link_reverse"
+                href="https://github.com/kazachenko2v"
+                target="_blank"
+              >
+                <img
+                  class="icon"
+                  src="assets/img/svg/github.svg"
+                  alt="github"
+                />
+                <span>Github</span>
+              </a>
+              <p>github.com/kazachenko2v</p>
+            </div>
+            <div class="contact__item">
+              <a
+                class="contact__link"
+                href="mailto:kazachenko2v@gmail.com
+              "
+              >
+                <img class="icon" src="assets/img/svg/gmail.svg" alt="gmail" />
+                <span>Gmail</span>
+              </a>
+              <p>kazachenko2v@gmail.com</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../assets/fonts/Poppins-Bold/Poppins-Bold.woff") format("woff"),
+    url("../assets/fonts/Poppins-Bold/Poppins-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../assets/fonts/Poppins-Regular/Poppins-Regular.woff")
+      format("woff"),
+    url("../assets/fonts/Poppins-Regular/Poppins-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../assets/fonts/Poppins-SemiBold/Poppins-SemiBold.woff")
+      format("woff"),
+    url("../assets/fonts/Poppins-SemiBold/Poppins-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "VelaSans-Medium";
+  src: url("../assets/fonts/VelaSans-Medium/VelaSans-Medium.woff")
+      format("woff"),
+    url("../assets/fonts/VelaSans-Medium/VelaSans-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Lobster-Regular";
+  src: url("../assets/fonts/Lobster-Regular/Lobster-Regular.woff")
+      format("woff"),
+    url("../assets/fonts/Lobster-Regular/Lobster-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "segoe-WP-semibold";
+  src: url("../assets/fonts/segoe-WP-semibold/segoe-WP-semibold.woff")
+      format("woff"),
+    url("../assets/fonts/segoe-WP-semibold/segoe-WP-semibold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../assets/fonts/Roboto-Medium/Roboto-Medium.woff") format("woff"),
+    url("../assets/fonts/Roboto-Medium/Roboto-Medium.ttf") format("ttf");
+}
